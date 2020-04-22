@@ -1,0 +1,17 @@
+name: nl-covid19-data-hub-api
+version: 0.1.0
+
+authors:
+  - Jack Arthur Harrhy <me@jackharrhy.com>
+
+targets:
+  api:
+    main: src/api.cr
+
+dependencies:
+  grip:
+    github: grip-framework/grip
+
+crystal: 0.34.0
+
+license: MIT

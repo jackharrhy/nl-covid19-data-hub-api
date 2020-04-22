@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  api:
+    image: jackharrhy/nl-covid19-data-hub-api
+    build: ./.
+    ports:
+      - "3000:3000"
